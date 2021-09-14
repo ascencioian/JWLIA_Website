@@ -1,0 +1,337 @@
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+  
+  .clear {
+      clear: both;
+  }
+  
+  /******************************************
+  /* BASE STYLES
+  /*******************************************/
+  
+  body {
+    background-color: rgb(255,255,255);
+  }
+  
+
+  /******************************************
+  /* LAYOUT 2nd round
+  /*******************************************/
+/* HEADER*/
+header {
+  height:50px;
+  width:100%;
+}
+/* MAIN */
+.joinUs {
+    background-color: rgb(241,243,245);
+    /* border:1px solid black; */
+    display:flex;  
+}
+.missionStatement {
+    background-color:white;
+    /* border:1px solid black; */
+}
+.ourHistory {
+    background-color: rgb(241,243,245);
+    /* border:1px solid black; */
+    display:flex;
+}
+.whoWeAre {
+    background-color:white;
+    /* border:1px solid black; */
+}
+.foundations{
+    background-color:white;
+    /* border:1px solid black; */
+    display:flex;
+}
+
+/* FOOTER */    
+.newsLetterBanner{
+    background-color: rgb(184,197,209);
+    /* border:1px solid black; */
+   
+}
+  .social{
+    background-color: rgb(143,156,163);
+    /* border:1px solid black; */
+    display:flex;
+}
+.footerNav{
+    background-color: rgb(143,156,163);
+    height:200px;
+    width:100%;
+    display:flex;
+}
+/******************************************
+/* LAYOUT 3nd round
+/*******************************************/ 
+/* HEADER*/
+.headerNavMobile{
+  display:none;
+}
+/* MAIN */
+.joinUsSection{
+    width:50%;
+    /* border:1px solid black;  */
+    text-align: center; 
+}
+.womansSilluette{
+    width:50%;
+    /* border:1px solid black; */
+    display:flex;
+    justify-content: center;
+}
+.mission{
+    width:100%;
+    /* border:1px solid black; */
+    text-align: center;
+}
+.missionGoals{
+  width:100%;
+  /* border:1px solid black; */
+  display:flex;
+  text-align: center;
+}
+.missionGoalOne{
+    width:50%;
+    /* border:1px solid black; */
+}
+.missionGoalTwo{
+    width:50%;
+    /* border:1px solid black; */
+}
+.missionDisclaimer{
+    width:100%;
+    /* border:1px solid black; */
+    text-align: center;
+} 
+/* history Column */
+.ourHistorySection{
+  width:50%;
+  /* border:1px solid black; */
+}
+.historyHeader{
+  width:100%;
+  /* border:1px solid black; */
+}
+.historyParagraph{
+  width:100%;
+  /* border:1px solid black; */
+}
+/* images Column */
+.imageColumn{
+  width:50%;
+  /* border:1px solid black; */
+  text-align: center;
+}
+.jwliMeeting{
+  width:100%;
+  /* border:1px solid black; */
+}
+.jwliStanding{
+  width:100%;
+  /* border:1px solid black; */
+}
+/*  WHO WE ARE*/
+.whoWeAreHeader{
+  width:100%;
+  /* border:1px solid black; */
+  text-align: center;
+}
+.founderNotes{
+  width:100%;
+  /* border:1px solid black; */
+  display:flex;
+}
+.founderImage{
+  width:30%;
+  /* border:1px solid black; */
+  text-align: center;
+}
+.founderDescription{
+  width:70%;
+  /* border:1px solid black; */
+}
+/* FOUNDATIONS */
+.fishFoundation{
+  width:50%;
+  /* border:1px solid black; */
+}
+.simmonsFoundation{
+  width:50%;
+  /* border:1px solid black; */
+}
+.fishHeader{
+  width:100%;
+  /* border:1px solid black; */
+}
+.fishParagraph{
+  width:100%;
+  /* border:1px solid black; */
+}
+.simmonsHeader{
+  width:100%;
+  /* border:1px solid black; */
+}
+.simmonsParagraph{
+  width:100%;
+  /* border:1px solid black; */
+}
+/* FOOTER */
+.socialCopyright{
+  /* border:1px solid black; */
+  width:70%;
+  text-align: center;
+}
+.socialMediaList{
+  /* border:1px solid black; */
+  width:30%
+}
+.footerLeft{
+  width:50%;
+  /* border:1px solid black; */
+  display:flex;
+}
+.footerRight{
+  width:50%;
+  /* border:1px solid black; */
+}
+.footerNav1{
+  width:33.33333%;
+  /* border:1px solid black; */
+}
+.footerNav2{
+  width:33.33333%;
+  /* border:1px solid black; */
+}
+.footerNav3{
+  width:33.33333%;
+  /* border:1px solid black; */
+}
+
+/******************************************
+/* CONTENT
+/*******************************************/
+
+/* Modules */
+.responsiveImage{
+  max-width: 100%;
+  height: auto;
+}
+/* header */
+.headerNav{
+  display:flex;
+  justify-content: space-around;
+  list-style-type: none;
+  align-items:center;
+}
+.headerNav li{
+  padding: 1rem;
+}
+/* main */
+.joinUsSection{
+  flex-direction: row;
+}
+.newsLetterBanner{
+  text-align: center;
+}
+
+/* footer */
+footer{
+  color:white;
+}
+.followUs{
+  display:flex;
+  justify-content: space-around;
+}
+.followUs li{
+  display:inline-block;
+}
+.additonalSitePages{
+  display:flex;
+  justify-content: space-around;
+}
+.additonalSitePages li{
+  display:inline-block;
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width:1024px) {
+
+}
+
+@media only screen and (min-width: 414px) and (max-width:736px) {
+  /* header */
+  .headerNav{
+    display:none;
+  }
+.headerNavMobile{
+  display:flex;
+  justify-content: space-around;
+  list-style-type: none;
+  align-items:center;
+}
+.headerNavMobile li{
+  padding: 1rem;
+}
+  /* main */
+  .joinUsSection{
+  width:100%;
+  }
+  .womansSilluette{
+    display:none;
+  }
+  .ourHistorySection{
+    width:100%;
+  }
+  .imageColumn{
+    display:none;
+  }
+  .historyHeader{
+    text-align: center;
+  }
+  .founderImage{
+    display:none;
+  }
+  .founderDescription{
+    width:100%;
+  }
+  .followUs{
+    flex-direction: column;
+  }
+
+  /* footer */
+  .footerLeft{
+    width:100%;
+  }
+  .footerRight{
+    display:none;
+  }
+
+}
+
+
+
+/* ems */
+
+
+
+/* background-color: rgb(51,57,66);
+ text-decoration: none;
+ text-align: center;
+ border: none; */
