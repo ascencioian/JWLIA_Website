@@ -3,7 +3,7 @@ This project is a wireframe developed for a non-profit promoting Japanese Women 
 
 **Link to project:** https://vibrant-khorana-e9faeb.netlify.app
 
-<img src="images/live_screenshot.png">
+![](images/live_screenshot.png)
 
 ## How It's Made:
 
