@@ -9,7 +9,7 @@ This project is a wireframe developed for a non-profit promoting Japanese Women 
 
 **Tech used:** HTML, CSS
 
-To make this wireframe we are going to be using HTML and CSS to markup. we are also making the site resonsive with media queries to have this look presentable on mobile and tablet scaling. there are 5 main sections which represent the most important information.
+To make this wireframe we are going to be using HTML and CSS to markup. We are also making the site resonsive with media queries to have this look presentable on mobile and tablet scaling. There are 5 main sections which represent the most important information.
 
 ## Optimizations
 
@@ -18,7 +18,6 @@ To make this wireframe we are going to be using HTML and CSS to markup. we are a
 
 A great lesson learned from this website is the importance of displaying the most important information first. This can be seen by having the JWLIA logo, new member submission form and mission statement at the top 2 sections.
 
-## Examples:
 
 
 
